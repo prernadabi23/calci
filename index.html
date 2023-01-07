@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" name="box">
+        <div class="result">
+          <input type="text" name="resultbox" id="resultbox">
+        </div>
+        <div class="buttons">
+          <div class="row">
+            <input type="button" onclick="val(v7.value)" name="v7" value="7">
+            <input type="button" onclick="val(v8.value)" name="v8" value="8">
+            <input type="button" onclick="val(v9.value)" name="v9" value="9">
+            <input type="button" onclick="val(add.value)" name="add" value="+">
+          </div>
+          <div class="row">
+            <input type="button" onclick="val(v4.value)" name="v4" value="4">
+            <input type="button" onclick="val(v5.value)" name="v5" value="5">
+            <input type="button" onclick="val(v6.value)" name="v6" value="6">
+            <input type="button"  onclick="val(sub.value)" name="sub" value="-">
+          </div>
+          <div class="row">
+            <input type="button" onclick="val(v1.value)" name="v1" value="1">
+            <input type="button" onclick="val(v2.value)" name="v2" value="2">
+            <input type="button" onclick="val(v3.value)" name="v3" value="3">
+            <input type="button"  onclick="val(mul.value)" name="mul" value="*">
+          </div>
+          <div class="row">
+            <input type="button" onclick="val(v0.value)" name="v0" value="0">
+            <input type="button" onclick="val(vdot.value)" name="vdot" value=".">
+            <input type="button" onclick="val(vdiv.value)" name="vdiv" value="/">
+            <input class="eq" style="background-color: #FFB100;"type="button" title="click two times to clear the result" onclick="calculate()" name="veql" value="=">
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
